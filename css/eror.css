@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Heebo:wght@400;500;700;900&family=Lato:ital,wght@1,300;1,400&family=Noto+Sans&family=Open+Sans:wght@400;600;800&family=Poppins:wght@300;400;500;600;700&family=Work+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.eror-mes {
+    margin-top: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000;
+    font-size: 50px;
+    margin-left: -1%;
+    /* font-size: 40px; */
+}
+
+.eror {
+    margin-top: 15%;
+    width: 50%;
+    /* margin-left: 300px; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 22%;
+    margin-right: 50%;
+}
+
+.eror svg {
+    width: 50px;
+    height: 50px;
+}
+
+.eror-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.eror-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.redirect-to-home a {
+    margin-top: 10px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 25px;
+    transition: all 0.5 ease;
+}
+
+.redirect-to-home a:hover {
+    color: #24262b;
+    background-color: rgba(0, 128, 0, 0.315);
+}
